@@ -14,10 +14,9 @@ import Slide10CaseStudy from "@/components/slides/Slide10CaseStudy";
 import Slide11FormativeAssessment3 from "@/components/slides/Slide11FormativeAssessment3";
 import Slide12SummativeAssessment from "@/components/slides/Slide12SummativeAssessment";
 import Slide13Summary from "@/components/slides/Slide13Summary";
-import Slide14Resources from "@/components/slides/Slide14Resources";
-import Slide15References from "@/components/slides/Slide15References";
 
-const TOTAL_SLIDES = 15;
+
+const TOTAL_SLIDES = 13;
 
 const slides = [
   { id: 1, component: Slide1Title },
@@ -33,8 +32,6 @@ const slides = [
   { id: 11, component: Slide11FormativeAssessment3 },
   { id: 12, component: Slide12SummativeAssessment },
   { id: 13, component: Slide13Summary },
-  { id: 14, component: Slide14Resources },
-  { id: 15, component: Slide15References },
 ];
 
 export default function ModuleContainer() {
@@ -82,10 +79,10 @@ export default function ModuleContainer() {
         <div className="max-w-7xl mx-auto px-4 py-4 flex items-center justify-between">
           <div className="flex items-center gap-3">
             <div className="w-10 h-10 bg-gradient-to-br from-blue-600 to-green-600 rounded-lg flex items-center justify-center">
-              <span className="text-white font-bold text-lg">IA</span>
+              <span className="text-white font-bold text-lg"></span>
             </div>
             <div>
-              <h1 className="text-xl font-bold text-slate-900">Inclusive Assessment Module</h1>
+              <h1 className="text-xl font-bold text-slate-900">Inclusive Assessment Design in K–12 Classrooms</h1>
               <p className="text-sm text-slate-600">Whitney Brown - D299 - Task 1</p>
             </div>
           </div>

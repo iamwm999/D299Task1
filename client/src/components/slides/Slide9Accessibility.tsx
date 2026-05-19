@@ -3,32 +3,32 @@ import { CheckCircle2, AlertCircle } from "lucide-react";
 export default function Slide9Accessibility() {
   const practices = [
     {
-
+      icon: "",
       title: "Readable Fonts",
       description: "Use sans-serif fonts (Arial, Verdana, Aptos) at 12pt or larger for easy reading",
     },
     {
-
+      icon: "",
       title: "High Color Contrast",
       description: "Ensure text contrasts with background (dark text on light, or vice versa)",
     },
     {
-
+      icon: "",
       title: "Captions & Transcripts",
       description: "Provide captions for videos and transcripts for audio content",
     },
     {
-
+      icon: "",
       title: "Alt Text",
       description: "Describe all images with clear, concise alternative text",
     },
     {
-
+      icon: "",
       title: "Chunked Information",
       description: "Break content into small, manageable sections with clear headings",
     },
     {
-
+      icon: "",
       title: "Flexible Formats",
       description: "Offer assessments in multiple formats (text, audio, visual, interactive)",
     },

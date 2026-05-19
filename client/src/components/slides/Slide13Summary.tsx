@@ -80,9 +80,7 @@ export default function Slide13Summary() {
             and how to redesign assessments for inclusion. You've also completed three formative
             assessments and one summative assessment.
           </p>
-          <p className="text-slate-700">
-            <strong>What's next?</strong> Consider how you can apply these principles in your own classroom!
-          </p>
+
         </div>
       </div>
     </div>

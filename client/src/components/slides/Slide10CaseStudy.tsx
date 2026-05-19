@@ -73,10 +73,10 @@ export default function Slide10CaseStudy() {
               <strong>The Problem:</strong> Several students struggle with this assessment:
             </p>
             <ul className="space-y-2 text-slate-700 ml-4">
-              <li>• <strong>Marco</strong> has ADHD and struggles with timed tests</li>
-              <li>• <strong>Priya</strong> is an English Language Learner and finds complex vocabulary confusing</li>
-              <li>• <strong>David</strong> is a strong visual learner but struggles with writing</li>
-              <li>• <strong>Aisha</strong> has anxiety about performance and needs more processing time</li>
+              <li>• <strong>Student 1</strong> has ADHD and struggles with timed tests</li>
+              <li>• <strong>Student 2</strong> is an English Language Learner and finds complex vocabulary confusing</li>
+              <li>• <strong>Student 3</strong> is a strong visual learner but struggles with writing</li>
+              <li>• <strong>Student 4</strong> has anxiety about performance and needs more processing time</li>
             </ul>
           </div>
         </div>
@@ -95,7 +95,7 @@ export default function Slide10CaseStudy() {
           </ul>
 
           <textarea
-            placeholder="Write your thoughts here"
+            placeholder="Write your thoughts here ..."
             className="w-full h-32 p-4 border-2 border-slate-200 rounded-lg focus:border-blue-600 focus:outline-none resize-none"
           />
         </div>

@@ -107,7 +107,7 @@ export default function Slide12SummativeAssessment({
                 <li className="flex gap-3">
                   <span className="text-blue-600 font-bold"></span>
                   <span>
-                    <strong>Maintain rigor:</strong> How will your redesigned assessment still
+                    <strong>Note:</strong> How will your redesigned assessment still
                     measure the same learning objectives?
                   </span>
                 </li>

@@ -83,7 +83,6 @@ export default function Slide4Barriers() {
           })}
         </div>
 
-
         {/* Key Message */}
         <div className="bg-gradient-to-r from-orange-50 to-red-50 border-l-4 border-orange-600 p-6 rounded-lg">
           <p className="text-slate-800">

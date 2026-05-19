@@ -50,12 +50,10 @@ export default function Slide1Title() {
 
           {/* Course Info */}
           <div className="flex flex-col md:flex-row items-center justify-center gap-8 text-base">
-
             <div className="bg-white/10 backdrop-blur-sm px-6 py-3 rounded-lg border border-white/20">
               <p className="text-blue-100 text-sm">Duration</p>
               <p className="text-white font-semibold">20-30 Minutes</p>
             </div>
-
           </div>
 
           {/* CTA */}

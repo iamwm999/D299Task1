@@ -99,25 +99,6 @@ export default function Slide7ApplyingUDL() {
           })}
         </div>
 
-            {/* After */}
-            <div className="border-2 border-green-200 rounded-lg p-6 bg-green-50">
-              <h4 className="font-bold text-green-900 mb-4 flex items-center gap-2">
-                <span className="w-6 h-6 bg-green-600 text-white rounded-full flex items-center justify-center text-sm">
-                  ✓
-                </span>
-                UDL-Aligned Approach
-              </h4>
-              <ul className="space-y-2 text-green-800 text-sm">
-                <li>• Multiple formats: essay, video, presentation, podcast</li>
-                <li>• Visual timelines, images, and primary sources provided</li>
-                <li>• Clear, accessible language in prompt</li>
-                <li>• Extended time, speech-to-text, or scribe available</li>
-                <li>• Flexible deadlines with check-in points</li>
-              </ul>
-            </div>
-          </div>
-        </div>
-
         {/* Key Takeaway */}
         <div className="bg-gradient-to-r from-blue-50 to-green-50 border-l-4 border-blue-600 p-6 rounded-lg">
           <p className="text-slate-800">
