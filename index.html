@@ -1,27 +1,467 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inclusive Assessment Design in K–12 Classrooms</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="header-container">
+            <div class="header-left">
+                <div class="logo-badge"></div>
+                <div>
+                    <h1 class="header-title">Inclusive Assessment Design in K–12 Classrooms</h1>
+                    <p class="header-subtitle">Whitney Brown - D299 - Task 1</p>
+                </div>
+            </div>
+            <div class="slide-counter">Slide <span id="current-slide">1</span> of 13</div>
+        </div>
+    </header>
 
-  <head>
-    <meta charset="UTF-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1.0, maximum-scale=1" />
-    <meta name="description" content="Inclusive Assessment Design in K-12 Classrooms - An interactive e-learning module on creating equitable and accessible assessments for diverse learners." />
-    <title>Inclusive Assessment Design in K-12 Classrooms</title>
-    
-    <!-- Google Fonts -->
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet" />
-  </head>
+    <!-- Main Content -->
+    <main class="main-content">
+        <div class="slides-container">
+            <!-- Slide 1: Title -->
+            <section class="slide" id="slide-1">
+                <div class="slide-content">
+                    <div class="hero-background">
+                        <div class="hero-overlay"></div>
+                        <div class="hero-content">
+                            <div class="timer-icon">⏱</div>
+                            <h1 class="hero-title">Inclusive Assessment<br>Design in K–12<br>Classrooms</h1>
+                            <p class="hero-subtitle">Creating equitable and accessible assessments for diverse learners</p>
+                            <div class="info-boxes">
+                                <div class="info-box">
+                                    <p class="info-label">Duration</p>
+                                    <p class="info-value">20-30 Minutes</p>
+                                </div>
+                            </div>
+                            <div class="cta-section">
+                                <p class="cta-text">Click "Begin" to start the module →</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
 
-  <body>
-    <div id="root"></div>
-    <script type="module" src="/src/main.tsx"></script>
-    <script
-      defer
-      src="%VITE_ANALYTICS_ENDPOINT%/umami"
-      data-website-id="%VITE_ANALYTICS_WEBSITE_ID%"></script>
-  </body>
+            <!-- Slide 2: Overview -->
+            <section class="slide" id="slide-2">
+                <div class="slide-content">
+                    <h2>Module Overview</h2>
+                    <p class="subtitle">What You'll Learn</p>
+                    <div class="overview-grid">
+                        <div class="overview-card">
+                            <h3>Assessment Barriers</h3>
+                            <p>Understand how traditional assessments can unintentionally exclude students</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>UDL Principles</h3>
+                            <p>Learn how Universal Design for Learning creates flexible, accessible assessments</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>Accessibility Best Practices</h3>
+                            <p>Discover practical strategies for designing inclusive assessments</p>
+                        </div>
+                        <div class="overview-card">
+                            <h3>Real-World Application</h3>
+                            <p>Apply these principles to redesign an actual classroom assessment</p>
+                        </div>
+                    </div>
+                    <p class="overview-footer">By the end of this module, you'll be equipped to design assessments that work for all learners.</p>
+                </div>
+            </section>
 
+            <!-- Slide 3: Why Inclusive Assessment Matters -->
+            <section class="slide" id="slide-3">
+                <div class="slide-content">
+                    <h2>Why Inclusive Assessment Matters</h2>
+                    <div class="video-container">
+                        <iframe width="100%" height="400" src="https://www.youtube.com/embed/bDlr7h0sSqs" title="Universal Design for Learning" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div>
+                    <div class="insight-box">
+                        <p class="insight-text">Traditional assessments may unintentionally create barriers for students.</p>
+                    </div>
+                    <div class="key-insight">
+                        <p><strong>Key Insight:</strong> When we design assessments with accessibility and flexibility in mind from the start, we create better learning experiences for everyone and not just students with various challenges.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 4: Common Assessment Barriers -->
+            <section class="slide" id="slide-4">
+                <div class="slide-content">
+                    <h2>Common Assessment Barriers</h2>
+                    <p class="subtitle">How Traditional Assessments Can Exclude Students</p>
+                    <div class="barriers-grid">
+                        <div class="barrier-card">
+                            <h3>Limited Time</h3>
+                            <p>Timed tests disadvantage students with processing differences or anxiety</p>
+                        </div>
+                        <div class="barrier-card">
+                            <h3>One Format Only</h3>
+                            <p>When students can only show learning through one format, such as written tests, those with different strengths are disadvantaged.</p>
+                        </div>
+                        <div class="barrier-card">
+                            <h3>Complex Language</h3>
+                            <p>Assessments with unnecessarily difficult vocabulary exclude English Language Learners</p>
+                        </div>
+                        <div class="barrier-card">
+                            <h3>No Accommodations</h3>
+                            <p>Students with disabilities may not have access to needed supports like screen readers or extended time</p>
+                        </div>
+                    </div>
+                    <div class="barrier-note">
+                        <p><strong>Remember:</strong> Barriers are about assessment and design, not student ability. By removing these barriers, we create fairer, more accurate measures of what students actually know and can do.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 5: Formative Assessment 1 - Spot the Barrier -->
+            <section class="slide" id="slide-5">
+                <div class="slide-content">
+                    <h2>Formative Assessment #1: Spot the Barrier</h2>
+                    <p class="subtitle">Interactive Activity</p>
+                    <div class="assessment-container">
+                        <div class="assessment-scenario">
+                            <h3>Scenario: Science Assessment</h3>
+                            <p><em>"Students have 30 minutes to complete a written test with 50 multiple-choice questions about the water cycle. All questions use technical vocabulary. There are no images or diagrams. Students cannot use any assistive technology."</em></p>
+                        </div>
+                        <div class="assessment-question">
+                            <p><strong>Question:</strong> What barriers might this assessment create for diverse learners?</p>
+                            <div class="assessment-options">
+                                <label class="option">
+                                    <input type="checkbox" class="barrier-checkbox" value="time">
+                                    <span>Time pressure disadvantages students with processing differences</span>
+                                </label>
+                                <label class="option">
+                                    <input type="checkbox" class="barrier-checkbox" value="format">
+                                    <span>Only written format excludes strong visual learners</span>
+                                </label>
+                                <label class="option">
+                                    <input type="checkbox" class="barrier-checkbox" value="language">
+                                    <span>Complex vocabulary excludes English Language Learners</span>
+                                </label>
+                                <label class="option">
+                                    <input type="checkbox" class="barrier-checkbox" value="access">
+                                    <span>No assistive technology access excludes students with disabilities</span>
+                                </label>
+                            </div>
+                            <button class="btn btn-primary" onclick="checkFormativeAssessment1()">Check Answers</button>
+                            <div id="feedback-1" class="feedback hidden"></div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 6: Introduction to UDL -->
+            <section class="slide" id="slide-6">
+                <div class="slide-content">
+                    <h2>Introduction to UDL</h2>
+                    <p class="subtitle">Universal Design for Learning 3.0</p>
+                    <div class="udl-container">
+                        <div class="udl-principle">
+                            <h3>🎯 Engagement</h3>
+                            <p>Stimulate interest and motivation for learning.</p>
+                        </div>
+                        <div class="udl-principle">
+                            <h3>📚 Representation</h3>
+                            <p>Present information and content in different ways.</p>
+                        </div>
+                        <div class="udl-principle">
+                            <h3>✍️ Action & Expression</h3>
+                            <p>Offer options for learners to express what they know.</p>
+                        </div>
+                    </div>
+                    <div class="udl-note">
+                        <p>When we design with UDL principles in mind, we create better assessments for everyone.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 7: Applying UDL to Assessment -->
+            <section class="slide" id="slide-7">
+                <div class="slide-content">
+                    <h2>Applying UDL to Assessment Design</h2>
+                    <div class="udl-application">
+                        <div class="udl-strategy">
+                            <h3>Engagement</h3>
+                            <ul>
+                                <li>Offer choice in assessment format</li>
+                                <li>Allow flexible timing and breaks</li>
+                                <li>Make assessments relevant to student interests</li>
+                            </ul>
+                        </div>
+                        <div class="udl-strategy">
+                            <h3>Representation</h3>
+                            <ul>
+                                <li>Provide text, images, and audio options</li>
+                                <li>Use clear, simple language</li>
+                                <li>Include visual supports and examples</li>
+                            </ul>
+                        </div>
+                        <div class="udl-strategy">
+                            <h3>Action & Expression</h3>
+                            <ul>
+                                <li>Allow multiple ways to demonstrate learning</li>
+                                <li>Support use of assistive technology</li>
+                                <li>Provide scaffolds and supports as needed</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="udl-reminder">
+                        <p><strong>Remember:</strong> These UDL strategies are smart assessment design that benefits all learners. When you build flexibility in from the start, you reduce the need for last-minute modifications.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 8: Formative Assessment 2 - Knowledge Check -->
+            <section class="slide" id="slide-8">
+                <div class="slide-content">
+                    <h2>Formative Assessment #2: Knowledge Check</h2>
+                    <p class="subtitle">Multiple Choice Questions</p>
+                    <div class="assessment-container">
+                        <div class="quiz-question">
+                            <p><strong>Question 1:</strong> Which UDL principle focuses on offering options for learners to express what they know?</p>
+                            <div class="quiz-options">
+                                <label class="option">
+                                    <input type="radio" name="q1" value="wrong1">
+                                    <span>Engagement</span>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="q1" value="correct">
+                                    <span>Action & Expression</span>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="q1" value="wrong2">
+                                    <span>Representation</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="quiz-question">
+                            <p><strong>Question 2:</strong> What is a key barrier in traditional assessments?</p>
+                            <div class="quiz-options">
+                                <label class="option">
+                                    <input type="radio" name="q2" value="wrong1">
+                                    <span>Too many format options</span>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="q2" value="correct">
+                                    <span>Limited to one format only</span>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="q2" value="wrong2">
+                                    <span>Too much time allowed</span>
+                                </label>
+                            </div>
+                        </div>
+                        <div class="quiz-question">
+                            <p><strong>Question 3:</strong> Which of the following is an accessibility best practice?</p>
+                            <div class="quiz-options">
+                                <label class="option">
+                                    <input type="radio" name="q3" value="wrong1">
+                                    <span>Use complex vocabulary</span>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="q3" value="correct">
+                                    <span>Use sans-serif fonts at 12pt or larger</span>
+                                </label>
+                                <label class="option">
+                                    <input type="radio" name="q3" value="wrong2">
+                                    <span>Avoid visual supports</span>
+                                </label>
+                            </div>
+                        </div>
+                        <button class="btn btn-primary" onclick="checkFormativeAssessment2()">Submit Answers</button>
+                        <div id="feedback-2" class="feedback hidden"></div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 9: Accessibility Best Practices -->
+            <section class="slide" id="slide-9">
+                <div class="slide-content">
+                    <h2>Accessibility Best Practices</h2>
+                    <div class="practices-grid">
+                        <div class="practice-card">
+                            <h3>Typography</h3>
+                            <p>Use sans-serif fonts (Arial, Verdana, Aptos) at 12pt or larger for easy reading</p>
+                        </div>
+                        <div class="practice-card">
+                            <h3>Color Contrast</h3>
+                            <p>Ensure text has high contrast with background (at least 4.5:1 ratio)</p>
+                        </div>
+                        <div class="practice-card">
+                            <h3>Clear Language</h3>
+                            <p>Use simple, direct language and define technical terms</p>
+                        </div>
+                        <div class="practice-card">
+                            <h3>Visual Supports</h3>
+                            <p>Include images, diagrams, and examples to support understanding</p>
+                        </div>
+                        <div class="practice-card">
+                            <h3>Flexible Format</h3>
+                            <p>Offer assessments in multiple formats (written, oral, visual)</p>
+                        </div>
+                        <div class="practice-card">
+                            <h3>Assistive Technology</h3>
+                            <p>Support screen readers, text-to-speech, and other assistive tools</p>
+                        </div>
+                    </div>
+                    <div class="accessibility-note">
+                        <p><strong>Important:</strong> When you build accessible assessments from the start, you create better experiences for all learners and not just those with various challenges.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 10: Case Study - Classroom Scenario -->
+            <section class="slide" id="slide-10">
+                <div class="slide-content">
+                    <h2>Case Study: Classroom Scenario</h2>
+                    <div class="case-study">
+                        <div class="scenario-box">
+                            <h3>The Original Assessment</h3>
+                            <p><strong>Grade Level:</strong> 5th Grade</p>
+                            <p><strong>Subject:</strong> Reading Comprehension</p>
+                            <p><strong>Format:</strong> 30-minute written test with 20 multiple-choice questions based on a 2-page passage</p>
+                        </div>
+                        <div class="scenario-box">
+                            <h3>The Problem:</h3>
+                            <p><strong>The Problem:</strong> Several students struggle with this assessment:</p>
+                            <ul>
+                                <li>• <strong>Student 1</strong> has ADHD and struggles with timed tests</li>
+                                <li>• <strong>Student 2</strong> is an English Language Learner and finds complex vocabulary confusing</li>
+                                <li>• <strong>Student 3</strong> is a strong visual learner but struggles with writing</li>
+                                <li>• <strong>Student 4</strong> has anxiety about performance and needs more processing time</li>
+                            </ul>
+                        </div>
+                        <div class="reflection-box">
+                            <h3>Your Task:</h3>
+                            <p>Think about how you would redesign this assessment using UDL principles to support all these learners. Write your thoughts here:</p>
+                            <textarea id="case-study-response" class="response-textarea" placeholder="Write your thoughts here ..."></textarea>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 11: Formative Assessment 3 - Inclusive Assessment Checklist -->
+            <section class="slide" id="slide-11">
+                <div class="slide-content">
+                    <h2>Formative Assessment #3: Inclusive Assessment Checklist</h2>
+                    <p class="subtitle">Self-Reflection Activity</p>
+                    <div class="assessment-container">
+                        <p class="checklist-intro">Review the checklist below and identify which inclusive practices you already use and which you would like to implement.</p>
+                        <div class="checklist">
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I offer assessments in multiple formats (written, oral, visual, performance)</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I allow flexible timing and breaks for students who need them</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I use clear, simple language in assessment instructions</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I include visual supports (images, diagrams, examples)</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I support use of assistive technology (screen readers, text-to-speech)</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I provide scaffolds and supports as needed</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I use high contrast colors and readable fonts</span>
+                            </label>
+                            <label class="checklist-item">
+                                <input type="checkbox" class="checklist-checkbox">
+                                <span>I give students choice in how they demonstrate learning</span>
+                            </label>
+                        </div>
+                        <div class="reflection-note">
+                            <p><strong>Reflection:</strong> Which practices are you already using? Which would you like to implement first?</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 12: Summative Assessment -->
+            <section class="slide" id="slide-12">
+                <div class="slide-content">
+                    <h2>Summative Assessment: Redesign an Assessment</h2>
+                    <div class="assessment-container">
+                        <div class="summative-intro">
+                            <p>Now it's your turn! Choose a real assessment from your classroom and redesign it using at least 3 inclusive strategies.</p>
+                        </div>
+                        <div class="summative-steps">
+                            <div class="step">
+                                <h3>Step 1: Identify barriers</h3>
+                                <p>What barriers exist in the original assessment?</p>
+                                <textarea class="response-textarea" placeholder="Write your response here..."></textarea>
+                            </div>
+                            <div class="step">
+                                <h3>Step 2: Apply UDL principles</h3>
+                                <p>Apply UDL principles</p>
+                                <textarea class="response-textarea" placeholder="Write your response here..."></textarea>
+                            </div>
+                            <div class="step">
+                                <h3>Step 3: Provide flexible supports</h3>
+                                <p>Provide flexible supports</p>
+                                <textarea class="response-textarea" placeholder="Write your response here..."></textarea>
+                            </div>
+                            <div class="step">
+                                <h3>Step 4: Note</h3>
+                                <p>How will your redesigned assessment still measure the same learning objectives?</p>
+                                <textarea class="response-textarea" placeholder="Write your response here..."></textarea>
+                            </div>
+                        </div>
+                        <div class="submission-note">
+                            <p><strong>Submission Options:</strong> Record your thoughts (this demonstrates UDL!)</p>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Slide 13: Summary & Completion -->
+            <section class="slide" id="slide-13">
+                <div class="slide-content">
+                    <h2>Summary & Key Takeaways</h2>
+                    <div class="summary-container">
+                        <div class="completion-box">
+                            <h3>✓ You've Completed the Module!</h3>
+                            <p>You've learned about assessment barriers, UDL principles, accessibility best practices, and how to redesign assessments for inclusion. You've also completed three formative assessments and one summative assessment.</p>
+                        </div>
+                        <div class="key-takeaways">
+                            <h3>Key Takeaways</h3>
+                            <ul>
+                                <li><strong>Assessment barriers</strong> are about design, not student ability</li>
+                                <li><strong>UDL principles</strong> (Engagement, Representation, Action & Expression) create flexible, accessible assessments</li>
+                                <li><strong>Accessibility best practices</strong> benefit all learners, not just those with disabilities</li>
+                                <li><strong>Inclusive assessment design</strong> is an ongoing process—start with one strategy and build from there</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <!-- Navigation -->
+    <footer class="footer">
+        <button class="btn btn-secondary" onclick="previousSlide()">← Back</button>
+        <button class="btn btn-nav" onclick="goHome()">🏠 Home</button>
+        <button class="btn btn-primary" onclick="nextSlide()">Next →</button>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
 </html>
